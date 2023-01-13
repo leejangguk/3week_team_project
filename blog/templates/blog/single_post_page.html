@@ -1,0 +1,22 @@
+<!DOCTYPE	html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>{{	post.title }} - Blog	</title>
+</head>
+<body>
+<nav> <!-- 네비게이션 링크 -->
+<a href="/blog/">Blog2</a>
+</nav>
+<h1> {{	post.name }} </h2>
+{% comment %} <h1> {{	post.title }} </h2> {% endcomment %}
+<h4> {{	post.mbit }} </h4>
+<h4> {{	post.email_address }} </h4>
+<p> {{	post.content }} </p>
+
+<a href="#!"><img class="card-img-top" src="{{post.introImage.url}}" alt="..." /></a>
+
+<hr>
+
+</body>
+</html>
